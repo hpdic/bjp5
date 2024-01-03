@@ -1,4 +1,4 @@
-public class UsePoint {
+public class BadUsePoint {
     public static void main(String[] args) {
         // This client code breaks the object's invariant.
         Point p = new Point(5, 4);

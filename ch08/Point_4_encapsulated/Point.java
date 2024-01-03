@@ -5,6 +5,7 @@
 public class Point {
     private int x;
     private int y;
+    // int x, y;
 
     // Constructs a new point with the given (x, y) location.
     // pre: initialX >= 0 && initialY >= 0

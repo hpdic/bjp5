@@ -55,6 +55,7 @@ public class Point {
 
     // Shifts this point's location by the given amount.
     // pre: x + dx >= 0 && y + dy >= 0
+    // Returning a new object and the original one is immutable
     public Point translate(int dx, int dy) {
         return new Point(x + dx, y + dy);
     }
